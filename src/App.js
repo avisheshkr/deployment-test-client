@@ -63,6 +63,7 @@ function App() {
             placeholder="avishesh"
             id="username"
             name="username"
+            value={input.username}
             onChange={inputHandler}
           />
         </div>
@@ -73,6 +74,7 @@ function App() {
             placeholder="avishesh@gmail.com"
             id="email"
             name="email"
+            value={input.email}
             onChange={inputHandler}
           />
         </div>
@@ -83,6 +85,7 @@ function App() {
             placeholder="Saraswotikhel"
             id="address"
             name="address"
+            value={input.address}
             onChange={inputHandler}
           />
         </div>
@@ -93,6 +96,7 @@ function App() {
             placeholder="98232323223"
             id="phone"
             name="phone"
+            value={input.phone}
             onChange={inputHandler}
           />
         </div>
