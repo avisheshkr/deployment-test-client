@@ -27,6 +27,7 @@ function App() {
     try {
       console.log(res.data);
       alert("User registered successfully");
+      setInput({ username: "", email: "", address: "", phone: "" });
     } catch (error) {
       console.log(error);
     }
